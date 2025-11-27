@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenny RAG Agent</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Lenny RAG Agent</h1>
+            <p class="subtitle">Ask questions about product management, growth, and career advice</p>
+        </header>
+
+        <div class="chat-container">
+            <div id="messages" class="messages"></div>
+        </div>
+
+        <div class="input-container">
+            <input
+                type="text"
+                id="query-input"
+                placeholder="Ask a question..."
+                autocomplete="off"
+            >
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

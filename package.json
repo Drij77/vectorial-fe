@@ -1,12 +1,11 @@
 {
   "name": "lenny-rag-agent-ui",
   "version": "1.0.0",
-  "description": "Web UI for Lenny RAG Agent",
+  "description": "Static web UI for Lenny RAG Agent - connects to AWS WebSocket API",
   "scripts": {
-    "dev": "python -m http.server 8000",
-    "build": "echo 'No build needed - static site'"
+    "start": "echo 'Open index.html in your browser'"
   },
-  "keywords": ["rag", "websocket", "chat", "ai"],
+  "keywords": ["rag", "websocket", "chat", "ai", "static"],
   "author": "",
   "license": "MIT"
 }
